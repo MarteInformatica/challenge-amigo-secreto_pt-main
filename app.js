@@ -88,7 +88,7 @@ function sortearAmigo() {
     
         // Exibir mensagem final após 5 segundos
         setTimeout(() => {
-        let mensagemFinal = "Agradecemos a sua participação. Até a próxima!";
+        let mensagemFinal = "Agradecemos pela participação. Até a próxima!";
         console.log(mensagemFinal);
         resultado.innerHTML = mensagemFinal;
         falarTexto(mensagemFinal);
