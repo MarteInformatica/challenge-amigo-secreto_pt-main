@@ -25,7 +25,7 @@ function adicionarAmigo() {
         if (mensagemErro) {
             mensagemErro.textContent = "Digite um nome válido!";
         }
-        console.log("Nome inválido! Digite um nome válido.");
+        console.log("Nome inválido! Por favor, Digite um nome válido.");
         return;
     }
     if (participantes.includes(nome)) {    
